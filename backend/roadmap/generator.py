@@ -1,7 +1,7 @@
 from random import randrange
 from typing import List
 
-from src.without_optimization.structures import RoadMap, Point, Road
+from .structures import RoadMap, Point, Road
 
 
 class Generator:

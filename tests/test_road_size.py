@@ -1,4 +1,4 @@
-from src.without_optimization.structures import Point, Road
+from backend.roadmap.structures import Point, Road
 
 
 def test_size():
