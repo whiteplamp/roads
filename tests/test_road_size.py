@@ -1,6 +1,4 @@
-import pytest
-
-from src.structures import Point, Road
+from src.without_optimization.structures import Point, Road
 
 
 def test_size():
