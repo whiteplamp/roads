@@ -40,3 +40,9 @@ class RoadMap:
         for road in self.roads:
             _str += f"{str(road)}\n"
         return _str
+
+
+class Building:
+    def __init__(self, pos_x: int, pos_y: int):
+        self.pos_x = pos_x
+        self.pos_y = pos_y
